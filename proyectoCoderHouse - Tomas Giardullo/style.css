@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url('IMG/Fondo3.png');
+}
+
+header{
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #00424d;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: #fff;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    font-weight: bold;
+  }
+  
+
+footer{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #00424d;
+}
+
+footer div{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer div p{
+    font-weight: bold;
+    margin: 5px;
+}
+.container{
+    width: 100%;
+    justify-content: center;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 20%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 210px;
+}
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;   
+}
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.card .contenido button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.card .contenido button:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
+button.botonCarrito{
+    border: 0;
+    background-image: linear-gradient(150deg, #9500ff, #09f, #00DDFF);
+    border-radius: 8PX;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+     
+}
+button.botonCarrito span{
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+
+}
+button.botonCarrito:hover span{
+    background: none;
+}
+button.botonCarrito :active{
+    transform: scale(0.9);
+}
+
+.input-field{
+    position: relative;
+}
+.input-field input{
+    width: 300px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 2px solid #000000;
+    background: #fff;
+    color: #000000;
+    outline: none;
+}
+.input-field label{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #000000;
+    font-size: 19px;
+    pointer-events: none;
+    transition: .3s;
+
+}
+input:focus ~ label {
+    top: 0%;
+    left: 15px;
+    font-size: 16px;
+    padding: 0 2px;
+    background: #fff;
+    
+}
+
+.Redes-Sociales{
+    display: inline-block;
+    margin-left: 20px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.Primer-Footer{
+    padding-top: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.Segundo-footer{
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+.card h4{
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+  }
